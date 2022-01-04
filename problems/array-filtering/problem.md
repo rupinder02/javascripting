@@ -32,7 +32,7 @@ The function that you pass to the `.filter()` method will look something like th
 
 ```js
 function evenNumbers (number) {
-  return number % 2 === 0
+  return !(number % 2);
 }
 ```
 
